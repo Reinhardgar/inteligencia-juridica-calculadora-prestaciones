@@ -1,26 +1,34 @@
-﻿# Calculadora JurÃ­dico-Laboral
+# Calculadora Jurídico-Laboral
 
-MÃ³dulo de **Inteligencia JurÃ­dica** para cuantificar prestaciones laborales y apoyar la estimaciÃ³n del monto reclamado al presentar una demanda.
+Módulo de **Inteligencia Jurídica** para cuantificar prestaciones laborales y apoyar la estimación del monto reclamado al presentar una demanda.
 
-## VersiÃ³n estable
+## Versión estable
 
-1.4.1
+1.5.1
+
+## Funcionalidades principales
+
+- Cálculo de prestaciones laborales con desglose por concepto.
+- Salarios devengados incorporados automáticamente cuando existen días capturados.
+- Cantidades expresas con concepto y monto.
+- Vacaciones proporcionales del periodo en curso.
+- Vacaciones pendientes del último periodo concluido.
+- Pruebas automatizadas y generación de instalador para Windows.
 
 ## Estructura
 
-- src/motor: reglas y operaciones de cÃ¡lculo.
-- src/interfaz: aplicaciÃ³n de escritorio.
-- 	ests: pruebas automatizadas.
-- ssets: logotipo e iconos.
-- packaging: compilaciÃ³n PyInstaller e instalador Inno Setup.
-- scripts/actualizaciones: migraciones histÃ³ricas del cÃ³digo.
-- docs: decisiones tÃ©cnicas y jurÃ­dicas.
-- eleases: instaladores aprobados por versiÃ³n.
+- `src/motor`: reglas y operaciones de cálculo.
+- `src/interfaz`: aplicación de escritorio.
+- `tests`: pruebas automatizadas.
+- `assets`: logotipo e iconos.
+- `packaging`: compilación con PyInstaller e Inno Setup.
+- `docs`: decisiones técnicas y jurídicas.
+- `releases`: instaladores aprobados por versión.
 
-## ValidaciÃ³n
+## Validación
 
-Los resultados son auxiliares y deben revisarse conforme a los hechos, documentos y criterio jurÃ­dico aplicable a cada expediente.
+Los resultados son auxiliares y deben revisarse conforme a los hechos, documentos y criterio jurídico aplicable a cada expediente.
 
 ## Seguridad
 
-No almacenar contraseÃ±as, tokens, expedientes, datos personales ni bases productivas en este repositorio.
+No se deben almacenar contraseñas, tokens, expedientes, datos personales ni bases productivas en este repositorio.

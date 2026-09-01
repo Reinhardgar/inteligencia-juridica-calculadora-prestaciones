@@ -1,3 +1,5 @@
-﻿# PolÃ­tica de seguridad
+# Política de seguridad
 
-Reporte cualquier vulnerabilidad directamente al responsable tÃ©cnico del proyecto. No publique credenciales, archivos de expedientes ni datos personales en incidencias, commits o solicitudes de cambio.
+Reporte cualquier vulnerabilidad directamente al responsable técnico del proyecto.
+
+No publique credenciales, archivos de expedientes, datos personales ni información confidencial en incidencias, commits o solicitudes de cambio.
