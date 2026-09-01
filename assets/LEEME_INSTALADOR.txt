@@ -1,0 +1,23 @@
+ARCHIVOS
+- CalculadoraPrestaciones.iss
+- Build-Installer.ps1
+
+Coloque ambos en C:\Users\HP980\Downloads\CalculadoraDespacho.
+El ejecutable compilado debe existir en dist\CalculadoraPrestaciones.
+También debe existir calculadora_despacho.ico en la carpeta principal.
+
+PROCESO
+1. Instale Inno Setup 7 en el equipo de compilación.
+2. Abra PowerShell normal en CalculadoraDespacho.
+3. Ejecute:
+   Set-ExecutionPolicy -Scope Process Bypass -Force
+   Unblock-File .\Build-Installer.ps1
+   .\Build-Installer.ps1
+
+Para recompilar primero la calculadora y después el instalador:
+   .\Build-Installer.ps1 -RebuildApp
+
+SALIDA
+Instalador\Instalador_CalculadoraPrestaciones_v1.3.0.exe
+
+Este único archivo instalador es el que se comparte con los usuarios finales.

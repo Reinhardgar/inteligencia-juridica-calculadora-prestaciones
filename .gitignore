@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Empaquetado temporal
+build/
+dist/
+*.spec.bak
+
+# IDE y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Respaldos y temporales
+*.bak
+*.tmp
+*.log
+
+# Datos y secretos
+.env
+.env.*
+*.pfx
+*.pem
+*.key
+*.csv
+*.xlsx
+*.xls
+*.json
+!tests/fixtures/*.json
+
+# Expedientes y documentos jurÃ­dicos
+*.pdf
+*.doc
+*.docx

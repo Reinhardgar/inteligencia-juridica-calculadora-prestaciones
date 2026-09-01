@@ -1,0 +1,12 @@
+1. Coloque en la misma carpeta:
+   - calculadora_prestaciones_consolidada.py
+   - calculadora_prestaciones_ui_modern.py
+   - Build-Calculadora.ps1
+   - requirements.txt
+
+2. Abra PowerShell 7 en esa carpeta.
+3. Ejecute: Set-ExecutionPolicy -Scope Process Bypass
+4. Ejecute: .\Build-Calculadora.ps1 -Clean
+5. Distribuya la carpeta completa dist\CalculadoraPrestaciones.
+
+Antes de distribuir: pruebe casos patron, revise antivirus corporativo y firme el ejecutable si el despacho dispone de certificado.
