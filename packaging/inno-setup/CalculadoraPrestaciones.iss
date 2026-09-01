@@ -1,5 +1,5 @@
-#define MyAppName "Calculadora de Prestaciones"
-#define MyAppVersion "1.4.1"
+﻿#define MyAppName "Calculadora de Prestaciones"
+#define MyAppVersion "1.5.1"
 #define MyAppPublisher "Despacho Jurídico Laboral"
 #define MyAppExeName "CalculadoraPrestaciones.exe"
 
